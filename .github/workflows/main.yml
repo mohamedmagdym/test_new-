@@ -1,0 +1,18 @@
+on: 
+  push: 
+    branches: 
+      - master
+
+
+
+
+
+      jobs: 
+        build: 
+          runs-on: window
+
+
+          steps: 
+            - name: 'print folder content'
+              run: ls
+
